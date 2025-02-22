@@ -1,8 +1,8 @@
 {
-  "PAGE_ACCESS_TOKEN": "MY_SECRET_TOKEN_9992",
-  "VERIFY_TOKEN": "WEBHOOK",
+  "PAGE_ACCESS_TOKEN": "https://pagebot-64va.onrender.com",
+  "VERIFY_TOKEN": "8587451644687834",
   "ADMINS": [
-    ""
+    "100094409873389"
   ],
   "BOTNAME": "BOTNAME",
   "PREFIX": "/",
