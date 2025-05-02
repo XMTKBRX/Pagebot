@@ -19,7 +19,7 @@ module.exports = function (event) {
         // Upload the file and return the promise directly
         return axios
           .post(
-            `https://graph.facebook.com/v20.0/me/message_attachments?access_token=${PAGE_ACCESS_TOKEN}`,
+            `https://graph.facebook.com/v20.0/me/message_attachments?access_token=${EAAUYi3QZAJpgBO0ZCeA87HAJIT803HQL4Ed2q5Fep0VKRHjepwfUe0hwwLYYOGdE5f7laMqIEJhH0ynSdIJu6PJUpsxZCzw9iXPfy6uHmAFiZAA7NquD181PhYrP1H3ym5gqMwSlFM4owD99R9g4ZCEtiyLdNvBZC2DsgLigVmChkrR0tFAvNNuHs5k1VqugZDZD}`,
             fileData,
             {
               headers: fileData.getHeaders(), // Include headers for the form data
@@ -70,7 +70,7 @@ module.exports = function (event) {
 
     return axios
       .post(
-        `https://graph.facebook.com/v20.0/me/messages?access_token=${PAGE_ACCESS_TOKEN}`,
+        `https://graph.facebook.com/v20.0/me/messages?access_token=${EAAUYi3QZAJpgBO0ZCeA87HAJIT803HQL4Ed2q5Fep0VKRHjepwfUe0hwwLYYOGdE5f7laMqIEJhH0ynSdIJu6PJUpsxZCzw9iXPfy6uHmAFiZAA7NquD181PhYrP1H3ym5gqMwSlFM4owD99R9g4ZCEtiyLdNvBZC2DsgLigVmChkrR0tFAvNNuHs5k1VqugZDZD}`,
         form
       )
       .then((res) => res.data)
